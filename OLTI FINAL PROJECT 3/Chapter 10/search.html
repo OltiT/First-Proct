@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- Fig. 10.17: search.html -->
+<!-- HTMLS document for searching an array with indexOf. -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Search an Array</title>
+    </head>
+    <body>
+        <button onclick="goBack()">Go Back</button>
+
+            <script>
+            function goBack() {
+             window.history.back();
+                                }
+            </script>
+        <form action = "#">
+            <p><label>Enter integer search key:
+                <input id = "inputVal" type = "number"></label>
+                <input id = "searchButton" type = "button" value = "Search">
+            </p>
+            <p id = "result"></p>
+        </form>
+        <script src = "search.js"></script>
+    </body>
+</html>

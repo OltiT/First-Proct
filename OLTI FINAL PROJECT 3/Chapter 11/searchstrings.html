@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Searching Strings</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src= "SearchStrings.js"></script>
+        </head>
+        <body>
+            <button onclick="goBack()">Go Back</button>
+
+            <script>
+            function goBack() {
+             window.history.back();
+                                }
+            </script>
+            <form id= "searchForm" action="#">
+                <h1>The string to search is:
+                    abcdefghijklmnopqrstuwxyzabcdefghijklm</h1>
+                <p>Enter the substring to search for 
+                   <input id="inputField" type="search">
+                   <input id="searchButton" type="button" value="Search"></p>
+                   <div id="results"></div>
+            </form>
+    </body>
+</html>

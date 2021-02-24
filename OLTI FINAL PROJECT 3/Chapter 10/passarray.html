@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- Fig. 10.13: PassArray.html -->
+<!-- HTML document that demonstrates passing arrays and -->
+<!-- individual array elements to functions. -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Arrays as Arguments</title>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <button onclick="goBack()">Go Back</button>
+
+            <script>
+            function goBack() {
+             window.history.back();
+                                }
+            </script>
+      
+        <h2>Effects of passing entire array by reference</h2>
+        <p id = "originalArray"></p>
+        <p id = "modifiedArray"></p>
+        <h2>Effects of passing array element by value</h2>
+        <p id = "originalElement"></p>
+        <p id = "inModifyElement"></p>
+        <p id = "modifiedElement"></p>
+
+        <script src = "passarray.js"></script>
+    </body>
+</html>

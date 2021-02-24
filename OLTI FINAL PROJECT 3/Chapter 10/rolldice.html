@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<!-- Fig. 10.9: RollDice.html -->
+<!-- HTML5 document for the dice-rolling example. -->
+<html> 
+    <head> 
+        <meta charset="UTF-8">
+        <title>Roll a Six-Sided Die 6000000 Times</title>
+        <link rel = "stylesheet" type = "text/css" href = "style.css"> 
+        <style>
+            li {
+                display: inline;
+                margin-right: 10px;
+            }
+            ul {
+                margin: 0;
+            }
+            img {
+                width: 100px;
+            }
+        </style>
+    </head>
+    <body> 
+    <button onclick="goBack()">Go Back</button>
+
+            <script>
+            function goBack() {
+             window.history.back();
+                                }
+            </script>
+        <p>
+            <img id = "diel" src = "die1.png" alt = "die 1 image">
+            <img id = "die2" src = "die2.png" alt = "die 2 image">
+            <img id = "die3" src = "die3.png" alt = "die 3 image">
+            <img id = "die4" src = "die4.png" alt = "die 4 image">
+            <img id = "dieS" src = "die5.png" alt = "die 5 image">
+            <img id = "die6" src = "die6.png" alt = "die 6 image">
+        </p>
+        <p><img id = "die7" src = "die1.png" alt = "die 7 image">
+            <img id = "die8" src = "die2.png" alt = "die 8 image">
+            <img id = "die9" src = "die3.png" alt = "die 9 image">
+            <img id = "diel0" src = "die4.png" alt = "die 10 image">
+            <img id = "diell" src = "die5.png" alt = "die 11 image">
+            <img id = "diel2" src = "die6.png" alt = "die 12 image">
+        </p>
+            
+        <form action = "#">
+        <input id = "rollButton" type = "button" value = "Roll Dice">
+        
+        </form>
+        
+        <div id = "frequencyTableDiv"></div>
+        <script src = "rolldice.js"></script>
+    </body>
+</htm1>
